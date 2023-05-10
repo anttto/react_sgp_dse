@@ -1,18 +1,17 @@
 import React from "react";
-import { Routes, Route, Outlet } from "react-router-dom";
+import { Outlet } from "react-router-dom";
 import Nav from "./components/Nav";
-import { LanguageContextProvider } from "./context/LanguageContext";
-
-import Home from "./pages/Home";
-import Sample from "./pages/Sample";
+import Popup from "./components/Popup";
+import { usePopupContext } from "./context/PopupContext";
 
 export default function App() {
+  const { show, isPopupOpen, popupName, msg, reward, openPopup, closePopup } = usePopupContext(); //팝업 컨텍스트 호출
   return (
-    <LanguageContextProvider>
+    <div id="wrapper">
       <Nav />
-      <div className="wrap">
-        <Outlet />
-      </div>
-    </LanguageContextProvider>
+      <br/><br/><br/>
+      <Outlet />
+      {isPopupOpen && <Popup show={show} reward={reward} popupName={popupName} msg={msg} onClose={closePopup} />}
+    </div>
   );
 }

@@ -1,0 +1,7 @@
+[
+  { "id": "1", "step": "골드", "num": 5, "rewardId": "보상1" },
+  { "id": "2", "step": "씨앗", "num": 10, "rewardId": "보상2" },
+  { "id": "3", "step": "방패", "num": 1, "rewardId": "보상3" },
+  { "id": "4", "step": "보석", "num": 2, "rewardId": "보상4" },
+  { "id": "5", "step": "무기", "num": 3, "rewardId": "보상5" }
+]

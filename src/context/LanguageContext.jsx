@@ -1,5 +1,4 @@
 import React, { createContext, useContext, useEffect, useState } from "react";
-
 import { popupLang, setLanguage } from "../commonJs/language";
 
 const LanguageContext = createContext();

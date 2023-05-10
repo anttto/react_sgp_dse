@@ -59,7 +59,12 @@ module.exports = {
       filename: "assets/css/[name].[contenthash:8].css",
       // chunkFilename: "[id].css",
     }),
-    new CopyPlugin({ patterns: [{ from: "public/favicon", to: "assets/images/favicon" }] }),
+    new CopyPlugin({
+      patterns: [
+        { from: "public/favicon", to: "assets/favicon" },
+        { from: "public/data", to: "data" },
+      ],
+    }),
     new Dotenv(),
   ],
 

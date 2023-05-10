@@ -25,7 +25,7 @@ export default function IsState() {
 
   return (
     <>
-      <h1 className="title">2. useState</h1>
+      <h1 className="title">3. useState</h1>
       <h3>{`현재 상태(값): ${num}`}</h3>
       <button type="button" onClick={addCount}>
         증가
