@@ -205,16 +205,14 @@ export default function lifeCycle() {
 
 > ## 6. 전역 상태 관리 : useContext
 
+- 어느 컴포넌트 에서든 선언 후, 동일한 상태 값을 사용 (전역 관리 필요한 곳) - ex) 인증상태(로그인), 다크모드 기능 등
+![image](https://github.com/anttto/react_sgp_dse/assets/57241573/be248dc7-37af-490a-84e2-d3cce86aac8e)
 
+<br><br>
 
-<br>
-
-> ### 6. 그 외, 많이 사용하는 API & 라이브러리
-
-- Context (useContext Hook 제공) : 어느 컴포넌트 에서든 선언 후, 동일한 상태 값을 사용 (전역 관리 필요한 곳)
-  ex) 인증상태(로그인), 다크모드 기능 등
-- React Query (공식 라이브러리) : 데이터의 요청과 그 요청에 대한 캐쉬Key 등을 자동으로 관리하여
-  효율적인 앱의 데이터 흐름을 관리해준다.
+> ## 7. 그 외, 많이 사용하는 Hook API
+ 
+- React Query(공식) : 데이터의 요청과 그 요청에 대한 캐쉬Key 등을 자동으로 관리하여 효율적인 앱의 데이터 흐름을 관리해준다.
 - useReducer
 - useMemo
   .
