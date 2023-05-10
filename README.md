@@ -13,7 +13,8 @@
 
 <img width="557" alt="image" src="https://user-images.githubusercontent.com/57241573/235106805-4ee65dcc-b0cb-4ab3-a879-423009f3d7c3.png">
 
-> 2023-05-10 이미지화 추가
+#### 2023-05-10 이미지화 추가
+
 ![리액트_프로젝트구조](https://github.com/anttto/react_sgp_dse/assets/57241573/dfea3021-62bc-4d26-b4bc-1d5e946fb36c)
 
 
