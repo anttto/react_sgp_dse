@@ -13,7 +13,7 @@ export default function Nav() {
         </li>
         <br/>
         <li>
-          <Link to="/state">상태 관리(Props) : useState</Link>
+          <Link to="/state">상태 관리(feat. Props) : useState </Link>
         </li>
         <li>
           <Link to="/lifecycle">생명주기(Life Cycle) : useEffect</Link>

@@ -14,7 +14,7 @@ function ParentComponent({ children }) {
 function Child1() {
   return (
     <div>
-      <p>최만억</p>
+      <p>김성민</p>
     </div>
   );
 }
@@ -23,7 +23,7 @@ function Child1() {
 function Child2() {
   return (
     <div>
-      <p>김성민</p>
+      <p>최만억</p>
     </div>
   );
 }
