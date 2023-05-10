@@ -7,7 +7,7 @@
 - Babel : v7.21.0 
 - Webpack v5
 
-<br>
+<br><br>
 
 > ## 1. 기본 구조 
 
@@ -18,6 +18,7 @@
 ![리액트_프로젝트구조](https://github.com/anttto/react_sgp_dse/assets/57241573/dfea3021-62bc-4d26-b4bc-1d5e946fb36c)
 
 
+<br><br>
 
 > ## 2. JSX 문법
 
