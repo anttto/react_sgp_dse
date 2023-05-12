@@ -11,7 +11,7 @@ export default function Nav() {
         <li>
           <Link to="/children">Children(컴포넌트의 재사용 개념)</Link>
         </li>
-        <br/>
+        <br />
         <li>
           <Link to="/state">상태 관리(feat. Props) : useState </Link>
         </li>
@@ -21,7 +21,7 @@ export default function Nav() {
         <li>
           <Link to="/context">전역 상태 관리 : useContext</Link>
         </li>
-        <br/>
+        <br />
         <li>
           <Link to="/sample">Sample(적용 사례)</Link>
         </li>

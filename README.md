@@ -1,22 +1,21 @@
-# ✅ React 환경 세팅 & 기본 문법 소개 
+# ✅ React 환경 세팅 & 기본 문법 소개
 
-⭐️ **DoSaEun** from **Team_WebDev_1** 
+⭐️ **DoSaEun** from **Team_WebDev_1**
 
-- React v18.2.0 
-- css & scss 
-- Babel : v7.21.0 
+- React v18.2.0
+- css & scss
+- Babel : v7.21.0
 - Webpack v5
 
 <br><br>
 
-> ## 1. 기본 구조 
+> ## 1. 기본 구조
 
 <img width="557" alt="image" src="https://user-images.githubusercontent.com/57241573/235106805-4ee65dcc-b0cb-4ab3-a879-423009f3d7c3.png">
 
 ### 2023-05-10 이미지화 추가
 
 ![리액트_프로젝트구조](https://github.com/anttto/react_sgp_dse/assets/57241573/dfea3021-62bc-4d26-b4bc-1d5e946fb36c)
-
 
 <br><br>
 
@@ -112,6 +111,7 @@ export default function Children() {
 ```
 
 ### View
+
 ![image](https://github.com/anttto/react_sgp_dse/assets/57241573/a532b62b-40ab-4af7-9942-bbee0c2698c5)
 
 - children 을 props로 선언 후 내부에서 children을 받는다.
@@ -169,7 +169,6 @@ export default function IsState() {
 
 ![image](https://github.com/anttto/react_sgp_dse/assets/57241573/0523381f-fc13-4c03-91e9-c11b4213167b)
 
-
 ```
 import React, { useState, useEffect } from "react";
 
@@ -207,14 +206,20 @@ export default function lifeCycle() {
 > ## 6. 전역 상태 관리 : useContext
 
 - 어느 컴포넌트 에서든 선언 후, 동일한 상태 값을 사용 (전역 관리 필요한 곳) - ex) 인증상태(로그인), 다크모드 기능 등
-![image](https://github.com/anttto/react_sgp_dse/assets/57241573/be248dc7-37af-490a-84e2-d3cce86aac8e)
+  ![image](https://github.com/anttto/react_sgp_dse/assets/57241573/be248dc7-37af-490a-84e2-d3cce86aac8e)
 
 <br><br>
 
 > ## 7. 그 외, 많이 사용하는 Hook API
- 
+
 - React Query(공식) : 데이터의 요청과 그 요청에 대한 캐쉬Key 등을 자동으로 관리하여 효율적인 앱의 데이터 흐름을 관리해준다.
 - useReducer
-- useMemo
-  .
-  .
+- useMemo . . .
+
+> ## 8. 프로젝트 샘플에서 사용된 Mock Api Service 라이브러리
+
+### Mock Service Worker란?
+
+```
+MSW(Mock Service Worker)는 서비스 워커(Service Worker)를 사용하여 네트워크 호출을 가로채는 API 모킹(mocking) 라이브러리입니다. 쉽게 말해, 브라우저에 기생(?)해서 마치 백앤드 API인 척하면서 프런트앤드의 요청에 가짜 데이터를 응답해주는 녀석
+```
