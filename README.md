@@ -216,6 +216,8 @@ export default function lifeCycle() {
 - useReducer
 - useMemo . . .
 
+<br><br>
+
 > ## 8. 샘플에서 사용된 json Server
 
 [website](https://jsonplaceholder.typicode.com/)
