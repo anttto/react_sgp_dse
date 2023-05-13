@@ -32,9 +32,12 @@ const router = createBrowserRouter([
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <LanguageContextProvider>{/* 언어(다국어) 전역 설정 */}
-      <PopupContextProvider>{/* 팝업 전역 설정 */}
-        <RouterProvider router={router}></RouterProvider>{/* 라우터 설정 */}
+    <LanguageContextProvider>
+      {/* 언어(다국어) 전역 설정 */}
+      <PopupContextProvider>
+        {/* 팝업 전역 설정 */}
+        <RouterProvider router={router}></RouterProvider>
+        {/* 라우터 설정 */}
       </PopupContextProvider>
     </LanguageContextProvider>
   </React.StrictMode>

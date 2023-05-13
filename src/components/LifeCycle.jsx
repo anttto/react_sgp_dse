@@ -17,9 +17,11 @@ export default function lifeCycle() {
   return (
     <div>
       <h1 className="title">4. 생명주기(Life Cycle) : useEffect</h1>
-      
-      <p style={{width:"100%", maxWidth:"50rem"}}><img style={{width:"100%"}} src={lifecycle}/></p>
-      <p style={{fontSize:"3rem"}}>👇👇👇</p>
+
+      <p style={{ width: "100%", maxWidth: "50rem" }}>
+        <img style={{ width: "100%" }} src={lifecycle} />
+      </p>
+      <p style={{ fontSize: "3rem" }}>👇👇👇</p>
       <h2>useEffect Hook 로 해결!!</h2>
       <p>클릭 횟수 : {count}</p>
       <button onClick={() => setCount(count + 1)}>버튼</button>

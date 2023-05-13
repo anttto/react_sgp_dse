@@ -25,6 +25,7 @@
     "array-flatten": "^2.1.2",
     "array-union": "^1.0.2",
     "array-uniq": "^1.0.3",
+    "axios": "^1.4.0",
     "babel-plugin-polyfill-corejs2": "^0.3.3",
     "babel-plugin-polyfill-corejs3": "^0.6.0",
     "babel-plugin-polyfill-regenerator": "^0.4.1",

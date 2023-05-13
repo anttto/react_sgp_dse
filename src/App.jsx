@@ -9,7 +9,6 @@ export default function App() {
   return (
     <div id="wrapper">
       <Nav />
-      <br/><br/><br/>
       <Outlet />
       {isPopupOpen && <Popup show={show} reward={reward} popupName={popupName} msg={msg} onClose={closePopup} />}
     </div>

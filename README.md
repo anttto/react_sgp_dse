@@ -216,10 +216,9 @@ export default function lifeCycle() {
 - useReducer
 - useMemo . . .
 
-> ## 8. 프로젝트 샘플에서 사용된 Mock Api Service 라이브러리
+> ## 8. 샘플에서 사용된 json Server
 
-### Mock Service Worker란?
+[website](https://jsonplaceholder.typicode.com/)
+[git hub](https://github.com/typicode/json-server)
 
-```
-MSW(Mock Service Worker)는 서비스 워커(Service Worker)를 사용하여 네트워크 호출을 가로채는 API 모킹(mocking) 라이브러리입니다. 쉽게 말해, 브라우저에 기생(?)해서 마치 백앤드 API인 척하면서 프런트앤드의 요청에 가짜 데이터를 응답해주는 녀석
-```
+> JSONPlaceholder는 가짜 데이터가 필요할 때마다 사용할 수 있는 무료 온라인 REST API입니다 . GitHub의 README, CodeSandbox의 데모, Stack Overflow의 코드 예제 또는 단순히 로컬에서 테스트할 수 있습니다.

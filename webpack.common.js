@@ -62,7 +62,6 @@ module.exports = {
     new CopyPlugin({
       patterns: [
         { from: "public/favicon", to: "assets/favicon" },
-        { from: "public/data", to: "data" },
       ],
     }),
     new Dotenv(),

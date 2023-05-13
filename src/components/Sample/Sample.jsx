@@ -1,7 +1,6 @@
 import React from "react";
 import { useLanguageContext } from "../../context/LanguageContext";
 import { usePopupContext } from "../../context/PopupContext";
-
 import EventBox from "./EventBox";
 
 export default function Sample() {
