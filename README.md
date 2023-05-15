@@ -28,8 +28,8 @@
 <div>...</div> / <>...</> 등
 ```
 
+> 📒 Example)
 ```
-✏️ Ex)
 import React from "react";
 import videoUrl from "../assets/videos/samplevideo.mp4";
 import sgpUrl from "../assets/images/common/sgp.png";
@@ -64,6 +64,7 @@ export default function Component() {
 
 > ## 3. Children
 
+> 📒 Example)
 ```
 //공통 컴퍼넌트
 function ParentComponent({ children }) {
@@ -123,6 +124,7 @@ export default function Children() {
 
 > ## 4. 상태관리 : useState
 
+> 📒 Example)
 ```
 export default function IsState() {
   const [num, setNum] = useState(0);
@@ -170,6 +172,7 @@ export default function IsState() {
 
 ![image](https://github.com/anttto/react_sgp_dse/assets/57241573/0523381f-fc13-4c03-91e9-c11b4213167b)
 
+> 📒 Example)
 ```
 import React, { useState, useEffect } from "react";
 
