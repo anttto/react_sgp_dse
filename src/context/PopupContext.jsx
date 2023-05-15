@@ -7,7 +7,7 @@ export function PopupContextProvider({ children }) {
   const [popupName, setPopupName] = useState(""); //팝업 종류
   const [msg, setMsg] = useState(""); //팝업 메시지 내용
   const [reward, setReward] = useState(""); //보상 아이템
-  const [videoId, setVideoId] = useState(""); //보상 아이템
+  const [videoId, setVideoId] = useState(""); //비디오 아이디
   const [show, setShow] = useState(""); //팝업 show 클래스 추가
 
   const openPopup = (obj, msg, rewardId) => {

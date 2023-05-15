@@ -4,25 +4,29 @@
       "id": "1",
       "title": "골드",
       "num": 5,
-      "complete": false
+      "complete": false,
+      "reward": "1000월"
     },
     {
       "id": "2",
       "title": "씨앗",
       "num": 10,
-      "complete": false
+      "complete": false,
+      "reward": "해바라기 씨앗"
     },
     {
       "id": "3",
       "title": "방패",
       "num": 1,
-      "complete": false
+      "complete": false,
+      "reward": "다막어 방패"
     },
     {
       "id": "4",
       "title": "보석",
       "numㄴ": 2,
-      "complete": false
+      "complete": false,
+      "reward": "반짝반짝 티니핑보석"
     },
     {
       "id": "5",

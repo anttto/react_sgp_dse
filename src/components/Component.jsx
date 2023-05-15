@@ -11,7 +11,6 @@ export default function Component() {
 
       <p>{true ? 1 : 0}</p>
       <p>{true && "NICE"}</p>
-      <p>{false && "NICE"}</p>
 
       <img src={sgpUrl} alt="" width="100" />
 
