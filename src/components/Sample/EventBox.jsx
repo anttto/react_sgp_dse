@@ -23,7 +23,7 @@ export default function EventBox() {
     fetchData();
   }, []);
 
-  // 가짜 API를 통해 success 응답을 받는 로직
+  // Mock API를 통해 success 응답을 받는 로직
   const handleButtonClick = (item) => {
     fetch(`http://localhost:3001/evtData/${item.id}`, {
       method: "PATCH",
@@ -37,13 +37,11 @@ export default function EventBox() {
         console.log("Success response:", result);
 
         // 응답을 받은 후에 데이터를 업데이트 하여 리스트를 다시 렌더링
-        
         // setData((prev) => {
         //   return prev.map((prevItem) => (prevItem.id === result.id ? { ...prevItem, complete: true } : prevItem));
         // });
 
-        //팝업 오픈
-        openPopup("popAlert", msgTxt[1]);
+        openPopup("popAlert", msgTxt[1], result.reward); //팝업 오픈
       })
       .catch((error) => {
         console.error(error);

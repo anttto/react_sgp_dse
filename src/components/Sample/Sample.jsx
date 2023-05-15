@@ -5,12 +5,15 @@ import EventBox from "./EventBox";
 
 export default function Sample() {
   const { msgTxt } = useLanguageContext();
-  const { openPopup } = usePopupContext();
+  const { openPopup, openYoutubePopup } = usePopupContext();
 
   return (
     <>
       <h1 className="title">5. Sample</h1>
-      <span className="banner" onClick={() => {openPopup("popAlert", msgTxt[5])}}></span>
+      <div className="popup-samples">
+        <span className="banner" onClick={() => {openPopup("popAlert", msgTxt[5])}}></span>
+        <span className="youtube-thumb" onClick={() => {openYoutubePopup("popYoutube", 'DpcJP-wQWGI')}}>영상 썸네일</span>
+      </div>
       <EventBox />
     </>
   );

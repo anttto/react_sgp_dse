@@ -5,12 +5,12 @@ import Popup from "./components/Popup";
 import { usePopupContext } from "./context/PopupContext";
 
 export default function App() {
-  const { show, isPopupOpen, popupName, msg, reward, openPopup, closePopup } = usePopupContext(); //팝업 컨텍스트 호출
+  const { show, isPopupOpen, popupName, msg, reward, openPopup, closePopup, videoId } = usePopupContext(); //팝업 컨텍스트 호출
   return (
     <div id="wrapper">
       <Nav />
       <Outlet />
-      {isPopupOpen && <Popup show={show} reward={reward} popupName={popupName} msg={msg} onClose={closePopup} />}
+      {isPopupOpen && <Popup show={show} reward={reward} videoId={videoId} popupName={popupName} msg={msg} onClose={closePopup} />}
     </div>
   );
 }

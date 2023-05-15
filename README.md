@@ -218,9 +218,19 @@ export default function lifeCycle() {
 
 <br><br>
 
-> ## 8. 샘플에서 사용된 json Server
+> ## 8. 샘플에서 사용된 jsonplaceholder (mock Api Server)
 
 [website](https://jsonplaceholder.typicode.com/)
 [git hub](https://github.com/typicode/json-server)
 
-> JSONPlaceholder는 가짜 데이터가 필요할 때마다 사용할 수 있는 무료 온라인 REST API입니다 . GitHub의 README, CodeSandbox의 데모, Stack Overflow의 코드 예제 또는 단순히 로컬에서 테스트할 수 있습니다.
+> - JSONPlaceholder는 가짜 데이터가 필요할 때마다 사용할 수 있는 무료 온라인 REST API입니다.
+> - GitHub의 README, CodeSandbox의 데모, Stack Overflow의 코드 예제 또는 단순 로컬에서 테스트할 수 있습니다.
+
+```
+(서버 실행 예시)
+json-server --watch evt.json --port 3001
+```
+
+> evt.json 가 루트에 존재 하지 않으면 JSONPlaceholder 에서 샘플 json 파일을 루트 폴더에 생성해줌.
+> 본 프로젝트에서는 필요한 evt.json 구조를 만들어 두었음. (자동 생성 X)
+> 로컬호스트 3001 포트에 api 서버를 구동한 상태로 REST API 동작 테스트를 진행.
