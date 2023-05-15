@@ -237,6 +237,6 @@ export default function lifeCycle() {
 json-server --watch evt.json --port 3001
 ```
 
-> evt.json 가 루트에 존재 하지 않으면 JSONPlaceholder 에서 샘플 json 파일을 루트 폴더에 생성해줌.
-> 본 프로젝트에서는 필요한 evt.json 구조를 만들어 두었음. (자동 생성 X)
-> 로컬호스트 3001 포트에 api 서버를 구동한 상태로 REST API 동작 테스트를 진행.
+- evt.json 가 루트에 존재 하지 않으면 JSONPlaceholder 에서 샘플 json 파일을 루트 폴더에 생성해줌.
+- 본 프로젝트에서는 필요한 evt.json 구조를 만들어 두었음. (자동 생성 X)
+- 로컬호스트 3001 포트에 api 서버를 구동한 상태로 REST API 동작 테스트를 진행.
