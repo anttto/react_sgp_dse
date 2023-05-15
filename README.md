@@ -29,6 +29,7 @@
 ```
 
 ```
+✏️ Ex)
 import React from "react";
 import videoUrl from "../assets/videos/samplevideo.mp4";
 import sgpUrl from "../assets/images/common/sgp.png";
