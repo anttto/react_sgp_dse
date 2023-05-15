@@ -226,6 +226,7 @@ export default function lifeCycle() {
 > ## 8. 샘플에서 사용된 jsonplaceholder (mock Api Server)
 
 [website](https://jsonplaceholder.typicode.com/)
+<br>
 [git hub](https://github.com/typicode/json-server)
 
 > - JSONPlaceholder는 가짜 데이터가 필요할 때마다 사용할 수 있는 무료 온라인 REST API입니다.
