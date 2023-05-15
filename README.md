@@ -218,6 +218,7 @@ export default function lifeCycle() {
 
 - React Query(공식) : 데이터의 요청과 그 요청에 대한 캐쉬Key 등을 자동으로 관리하여 효율적인 앱의 데이터 흐름을 관리해준다.
 - useReducer
+- useCallback
 - useMemo . . .
 
 <br><br>
